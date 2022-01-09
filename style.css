@@ -1,6 +1,27 @@
 body{
     background-color: lightblue;
 }
-#div1{
-    background-color: black;
+.subsection.header{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(211, 203, 203);
+    color: red;
 }
+.subsection.para{
+    color:blue;
+}
+.parent .contents{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: solid 1px red;
+}
+#thisParent {
+    margin-top: 30px;
+    color: red;
+  }
+  /*CLASS beats ID here since this is a direct call to a class. Usually ID is higher specificity*/
+  .child {
+    color: blue
+  }
